@@ -13,7 +13,7 @@ namespace blogger.EntityFrameworkCore
     {
         /* Define a DbSet for each entity of the application */
         public virtual DbSet<Blog> Blogs { get; set; }
-        public virtual DbSet<Category> Categorie { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Author> Authors { get; set; }
         
         public bloggerDbContext(DbContextOptions<bloggerDbContext> options)
