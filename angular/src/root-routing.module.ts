@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-    { path: '', redirectTo: '/app/home', pathMatch: 'full' },
+    { path: '', redirectTo: '/metro/home', pathMatch: 'full' },
     {
         path: 'account',
         loadChildren: () => import('account/account.module').then(m => m.AccountModule), // Lazy load account module
@@ -12,7 +12,8 @@ const routes: Routes = [
         path: 'app',
         loadChildren: () => import('app/app.module').then(m => m.AppModule), // Lazy load account module
         data: { preload: true }
-    }
+    },
+    { path: 'metro', loadChildren: () => import('metro/metro.module').then(m => m.MetroModule) }
 ];
 
 @NgModule({

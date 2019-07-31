@@ -42,7 +42,8 @@
               "src/bsb-theme/css/materialize.css",
               "src/bsb-theme/css/style.css",
               "src/bsb-theme/css/themes/all-themes.css",
-              "src/shared/core.less"
+              "src/shared/core.less",
+              "src/assets/css/style.bundle.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
@@ -79,7 +80,8 @@
               "node_modules/abp-web-resources/Abp/Framework/scripts/libs/abp.moment.js",
               "src/bsb-theme/js/admin.js",
               "src/bsb-theme/js/demo.js",
-              "src/bsb-theme/js/jquery.validate.js"
+              "src/bsb-theme/js/jquery.validate.js",
+              "src/assets/js/scripts.bundle.js"
             ]
           },
           "configurations": {
